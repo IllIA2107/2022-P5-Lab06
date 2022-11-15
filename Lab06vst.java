@@ -48,9 +48,9 @@ public class Lab06vst extends Applet
 
             g.setColor(new Color(rand.nextInt(256),rand.nextInt(256),rand.nextInt(256)));
 
-            int x1 = rand.nextInt(191) + 10;
-            int y1 = rand.nextInt(91) + 300;
             int diameter = rand.nextInt(201);
+            int x1 = rand.nextInt(390 - diameter) + 10;
+            int y1 = rand.nextInt(290- diameter) + 300 ;
 
             g.drawOval(x1,y1,diameter,diameter);
 
